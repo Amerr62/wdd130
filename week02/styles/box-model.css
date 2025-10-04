@@ -1,34 +1,32 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+.callout {
+  max-width: 500px;
+  margin: 20px auto;
+  border: 2px solid #1a3b6d;
+  padding: 20px;
+  background-color: #1a3b6d;
+  color: white;
+  overflow: hidden; 
 }
 
-.scripture-container {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-}
-
-.paul-image {
-  width: 150px;
-  height: auto;
+.callout img {
+  float: right;
+  margin-left: 15px;
   border: 1px solid #ccc;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  padding: 4px;
+  background-color: #fff;
+  width: 100px;
+  height: auto;
 }
 
-.scripture-text {
-  max-width: 800px;
+blockquote {
+  margin: 0;
 }
 
-.verse {
-  display: inline-block;
-  width: 30px;
+cite {
+  display: block;
+  border-top: 1px dotted #ccc;
+  padding-top: 10px;
   text-align: right;
-  margin-right: 10px;
-  font-weight: bold;
-}
-
-.reference {
-  margin-top: 10px;
+  font-size: 0.9em;
   font-style: italic;
 }
