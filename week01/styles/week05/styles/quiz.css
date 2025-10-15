@@ -1,52 +1,53 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #f5f5f5;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-  color: navy;
+main {
+    max-width: 500px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding:0 1rem;
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+    margin: .5rem;
 }
 
 form {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
-  width: 500px;
-  margin: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ddd;
+    color: #111
 }
 
-label {
-  display: block;
-  margin-top: 20px;
-  font-weight: bold;
-}
-
-input[type="text"],
-textarea,
-select {
-  width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-  box-sizing: border-box;
-}
-
-.code-block {
-  background-color: #2d2d2d;
-  color: #f8f8f2;
-  padding: 10px;
-  font-family: monospace;
-  margin-top: 10px;
+input, textarea, select, button {
+    padding: .75rem;
+    width: 350px;
 }
 
 button {
-  margin-top: 20px;
-  background-color: navy;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 4px;
+    background-color: navy;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+
+code {
+    display: block;
+    background-color: #000;
+    color: #fff;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+}
+
+.quiz-item {
+    margin: none;
 }
